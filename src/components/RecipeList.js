@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { Recipe } from "./Recipe";
 
 export const RecipeList = ({ items }) => {
@@ -14,12 +14,12 @@ export const RecipeList = ({ items }) => {
     );
 };
 
-// RecipeList.PropTypes = {
-//     items: PropTypes.arrayOf(
-//         PropTypes.shape(
-//             {
-//                 id: PropTypes.number.isRequired,
-//             }
-//         )
-//     ).isRequired,
-// };
+RecipeList.PropTypes = {
+    items: PropTypes.arrayOf(
+        PropTypes.shape(
+            {
+                id: PropTypes.number.isRequired,
+            }
+        )
+    ).isRequired,
+};
