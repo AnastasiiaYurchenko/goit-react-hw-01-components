@@ -14,7 +14,7 @@ export const RecipeList = ({ items }) => {
     );
 };
 
-RecipeList.PropTypes = {
+RecipeList.propTypes = {
     items: PropTypes.arrayOf(
         PropTypes.shape(
             {
