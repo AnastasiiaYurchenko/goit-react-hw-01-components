@@ -6,6 +6,8 @@ import { FriendList } from './FriendList';
 import friendlist from '../friends.json';
 import { Statistics } from './Statistics';
 import data from '../data.json';
+import { TransactionHistory } from './TransactionHistory';
+import transactions from '../transactions.json';
 
 export const App = () => {
   return (
@@ -32,6 +34,8 @@ export const App = () => {
       <Statistics stats={data} />
 
       <FriendList friends={friendlist} />
+
+      <TransactionHistory items={transactions} />
 
       <RecipeList items={recepies} />
     </div>
