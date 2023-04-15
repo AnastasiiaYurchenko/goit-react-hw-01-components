@@ -1,4 +1,4 @@
-import { RecipeList } from './RecipeList';
+import { RecipeList } from './RecipeList/RecipeList';
 import recepies from '../recepies.json';
 import { UserProfile } from './UserProfile';
 import user from '../user.json';
@@ -8,18 +8,20 @@ import { Statistics } from './Statistics';
 import data from '../data.json';
 import { TransactionHistory } from './TransactionHistory';
 import transactions from '../transactions.json';
+import { GlobalStyle } from './GlobalStyle';
+import { Layout } from './Layout/Layout';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        // display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
+    <Layout
+    // style={{
+    //   height: '100vh',
+    //   // display: 'flex',
+    //   justifyContent: 'center',
+    //   alignItems: 'center',
+    //   fontSize: 40,
+    //   color: '#010101',
+    // }}
     >
       <UserProfile
         username={user.username}
@@ -38,6 +40,8 @@ export const App = () => {
       <TransactionHistory items={transactions} />
 
       <RecipeList items={recepies} />
-    </div>
+
+      <GlobalStyle />
+    </Layout>
   );
 };

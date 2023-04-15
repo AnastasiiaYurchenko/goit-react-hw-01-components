@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
-import { Recipe } from './Recipe';
+import { Recipe } from '../Recipe';
+import { List } from './RecipeList.styled';
 
 export const RecipeList = ({ items }) => {
   return (
-    <ul style={{ display: 'flex', gap: 16 }}>
+    <List>
       {items.map(item => {
         return (
           <li key={item.id}>
@@ -11,7 +12,7 @@ export const RecipeList = ({ items }) => {
           </li>
         );
       })}
-    </ul>
+    </List>
   );
 };
 
