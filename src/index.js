@@ -9,6 +9,11 @@ const theme = {
     black: '#212121',
     white: '#fff',
   },
+  radii: {
+    xs: '4px',
+    sm: '8px',
+    lg: '12px',
+  },
 };
 
 ReactDOM.createRoot(document.getElementById('root')).render(

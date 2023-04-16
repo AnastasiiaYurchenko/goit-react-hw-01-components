@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Recipe } from '../Recipe';
+import { Recipe } from '../Recipe/Recipe';
 import { List } from './RecipeList.styled';
 
 export const RecipeList = ({ items }) => {
