@@ -8,6 +8,8 @@ const theme = {
     accent: 'orange',
     black: '#212121',
     white: '#fff',
+    red: 'red',
+    green: 'green',
   },
   radii: {
     xs: '4px',

@@ -2,7 +2,7 @@ import { RecipeList } from './RecipeList/RecipeList';
 import recepies from '../recepies.json';
 import { UserProfile } from './UserProfile';
 import user from '../user.json';
-import { FriendList } from './FriendList';
+import { FriendList } from './FriendList/FriendList';
 import friendlist from '../friends.json';
 import { Statistics } from './Statistics';
 import data from '../data.json';
