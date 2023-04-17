@@ -6,7 +6,7 @@ import { FriendList } from './FriendList/FriendList';
 import friendlist from '../friends.json';
 import { Statistics } from './Statistics';
 import data from '../data.json';
-import { TransactionHistory } from './TransactionHistory';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from '../transactions.json';
 import { GlobalStyle } from './GlobalStyle';
 import { Layout } from './Layout/Layout';
