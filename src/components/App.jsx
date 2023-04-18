@@ -1,10 +1,10 @@
 import { RecipeList } from './RecipeList/RecipeList';
 import recepies from '../recepies.json';
-import { UserProfile } from './UserProfile';
+import { UserProfile } from './UserProfile/UserProfile';
 import user from '../user.json';
 import { FriendList } from './FriendList/FriendList';
 import friendlist from '../friends.json';
-import { Statistics } from './Statistics';
+import { Statistics } from './Statistics/Statistics';
 import data from '../data.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from '../transactions.json';
@@ -39,7 +39,7 @@ export const App = () => {
 
       <TransactionHistory items={transactions} />
 
-      <RecipeList items={recepies} />
+      {/* <RecipeList items={recepies} /> */}
 
       <GlobalStyle />
     </Layout>
