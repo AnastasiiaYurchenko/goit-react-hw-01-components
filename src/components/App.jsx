@@ -1,5 +1,5 @@
-// import { RecipeList } from './RecipeList/RecipeList';
-// import recepies from '../recepies.json';
+import { RecipeList } from './RecipeList/RecipeList';
+import recepies from '../recepies.json';
 import { UserProfile } from './UserProfile/UserProfile';
 import user from '../user.json';
 import { FriendList } from './FriendList/FriendList';
@@ -39,7 +39,7 @@ export const App = () => {
 
       <TransactionHistory items={transactions} />
 
-      {/* <RecipeList items={recepies} /> */}
+      <RecipeList items={recepies} />
 
       <GlobalStyle />
     </Layout>
